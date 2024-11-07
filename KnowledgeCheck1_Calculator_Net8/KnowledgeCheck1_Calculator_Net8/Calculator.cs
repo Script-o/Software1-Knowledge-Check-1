@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KnowledgeCheck1_Calculator
+namespace KnowledgeCheck1_Calculator_Net8
 {
     public class Calculator
     {
@@ -20,7 +20,7 @@ namespace KnowledgeCheck1_Calculator
 
         public int Multiply(int first, int second)
         {
-            throw new NotImplementedException();
+            return first * second;
         }
 
         public double Divide(double first, double second)
